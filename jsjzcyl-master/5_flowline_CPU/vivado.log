@@ -1,0 +1,695 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Dec 28 10:16:39 2023
+# Process ID: 72636
+# Current directory: C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent62636 C:\vivadoprojects\jsjzcyl-master\5_flowline_CPU\5_flowline_CPU.xpr
+# Log file: C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/vivado.log
+# Journal file: C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Code Files/Verilog/5_flowline_CPU' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/ProgramFiles/XILINX/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'openmips_min_sopc_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj openmips_min_sopc_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/LLbit_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LLbit_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/ex_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/hilo_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hilo_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/id_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/if_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/inst_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/mem_wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openmips
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips_min_sopc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openmips_min_sopc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/pc_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sim_1/new/openmips_min_sopc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openmips_min_sopc_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+"xelab -wto 3f808ef259854b5c85aa70d189b8aaca --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot openmips_min_sopc_tb_behav xil_defaultlib.openmips_min_sopc_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/ProgramFiles/XILINX/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 3f808ef259854b5c85aa70d189b8aaca --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot openmips_min_sopc_tb_behav xil_defaultlib.openmips_min_sopc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'ram_ce_o' [C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips_min_sopc.v:35]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'mem_ce_o' [C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips.v:388]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pc_reg
+Compiling module xil_defaultlib.if_id
+Compiling module xil_defaultlib.id
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.id_ex
+Compiling module xil_defaultlib.ex
+Compiling module xil_defaultlib.ex_mem
+Compiling module xil_defaultlib.mem
+Compiling module xil_defaultlib.mem_wb
+Compiling module xil_defaultlib.hilo_reg
+Compiling module xil_defaultlib.ctrl
+Compiling module xil_defaultlib.div
+Compiling module xil_defaultlib.LLbit_reg
+Compiling module xil_defaultlib.openmips
+Compiling module xil_defaultlib.inst_rom
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.openmips_min_sopc
+Compiling module xil_defaultlib.openmips_min_sopc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot openmips_min_sopc_tb_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim/xsim.dir/openmips_min_sopc_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Dec 28 10:22:38 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "openmips_min_sopc_tb_behav -key {Behavioral:sim_1:Functional:openmips_min_sopc_tb} -tclbatch {openmips_min_sopc_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source openmips_min_sopc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'openmips_min_sopc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 843.426 ; gain = 30.578
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/clk}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rst}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_data_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_ce_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_data_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_data_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_we_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_sel_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_ce_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/pc}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_pc_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_inst_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_aluop_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_alusel_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_reg1_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_reg2_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_wreg_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_wd_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_is_in_delayslot_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_link_address_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_inst_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_aluop_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_alusel_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg1_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg2_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wreg_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wd_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_is_in_delayslot_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_link_address_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_inst_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wreg_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wd_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wdata_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_hi_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_lo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_whilo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_aluop_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_mem_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg1_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg2_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wreg_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wd_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wdata_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_hi_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_lo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_whilo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_aluop_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_mem_addr_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_reg1_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_reg2_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wreg_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wd_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wdata_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_hi_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_lo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_whilo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_LLbit_value_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_LLbit_we_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wreg_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wd_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wdata_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_hi_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_lo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_whilo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_LLbit_value_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_LLbit_we_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_read}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_read}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_data}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_data}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_addr}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_addr}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hi}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/lo}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_temp_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cnt_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_temp_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cnt_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_result}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_ready}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_opdata1}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_opdata2}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_start}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_annul}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/signed_div}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/is_in_delayslot_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/is_in_delayslot_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/next_inst_in_delayslot_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_branch_flag_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/branch_target_address}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stall}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stallreq_from_id}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stallreq_from_ex}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/LLbit_o}} 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'openmips_min_sopc_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj openmips_min_sopc_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/LLbit_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LLbit_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/ex_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/hilo_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hilo_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/id_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/if_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/inst_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/mem_wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openmips
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips_min_sopc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openmips_min_sopc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/pc_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sim_1/new/openmips_min_sopc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openmips_min_sopc_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+"xelab -wto 3f808ef259854b5c85aa70d189b8aaca --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot openmips_min_sopc_tb_behav xil_defaultlib.openmips_min_sopc_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/ProgramFiles/XILINX/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 3f808ef259854b5c85aa70d189b8aaca --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot openmips_min_sopc_tb_behav xil_defaultlib.openmips_min_sopc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'ram_ce_o' [C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips_min_sopc.v:35]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'mem_ce_o' [C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips.v:388]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pc_reg
+Compiling module xil_defaultlib.if_id
+Compiling module xil_defaultlib.id
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.id_ex
+Compiling module xil_defaultlib.ex
+Compiling module xil_defaultlib.ex_mem
+Compiling module xil_defaultlib.mem
+Compiling module xil_defaultlib.mem_wb
+Compiling module xil_defaultlib.hilo_reg
+Compiling module xil_defaultlib.ctrl
+Compiling module xil_defaultlib.div
+Compiling module xil_defaultlib.LLbit_reg
+Compiling module xil_defaultlib.openmips
+Compiling module xil_defaultlib.inst_rom
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.openmips_min_sopc
+Compiling module xil_defaultlib.openmips_min_sopc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot openmips_min_sopc_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "openmips_min_sopc_tb_behav -key {Behavioral:sim_1:Functional:openmips_min_sopc_tb} -tclbatch {openmips_min_sopc_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source openmips_min_sopc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'openmips_min_sopc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 993.848 ; gain = 6.977
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/clk}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rst}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_data_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_ce_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_data_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_data_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_we_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_sel_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_ce_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/pc}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_pc_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_inst_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_aluop_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_alusel_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_reg1_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_reg2_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_wreg_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_wd_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_is_in_delayslot_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_link_address_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_inst_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_aluop_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_alusel_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg1_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg2_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wreg_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wd_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_is_in_delayslot_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_link_address_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_inst_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wreg_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wd_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wdata_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_hi_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_lo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_whilo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_aluop_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_mem_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg1_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg2_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wreg_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wd_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wdata_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_hi_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_lo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_whilo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_aluop_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_mem_addr_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_reg1_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_reg2_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wreg_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wd_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wdata_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_hi_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_lo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_whilo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_LLbit_value_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_LLbit_we_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wreg_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wd_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wdata_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_hi_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_lo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_whilo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_LLbit_value_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_LLbit_we_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_read}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_read}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_data}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_data}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_addr}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_addr}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hi}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/lo}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_temp_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cnt_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_temp_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cnt_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_result}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_ready}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_opdata1}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_opdata2}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_start}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_annul}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/signed_div}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/is_in_delayslot_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/is_in_delayslot_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/next_inst_in_delayslot_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_branch_flag_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/branch_target_address}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stall}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stallreq_from_id}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stallreq_from_ex}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/LLbit_o}} 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'openmips_min_sopc_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj openmips_min_sopc_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/LLbit_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LLbit_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/ex_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/hilo_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hilo_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/id_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/if_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/inst_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/mem_wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openmips
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips_min_sopc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openmips_min_sopc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/pc_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sim_1/new/openmips_min_sopc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openmips_min_sopc_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+"xelab -wto 3f808ef259854b5c85aa70d189b8aaca --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot openmips_min_sopc_tb_behav xil_defaultlib.openmips_min_sopc_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/ProgramFiles/XILINX/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 3f808ef259854b5c85aa70d189b8aaca --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot openmips_min_sopc_tb_behav xil_defaultlib.openmips_min_sopc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'ram_ce_o' [C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips_min_sopc.v:34]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'mem_ce_o' [C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips.v:376]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pc_reg
+Compiling module xil_defaultlib.if_id
+Compiling module xil_defaultlib.id
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.id_ex
+Compiling module xil_defaultlib.ex
+Compiling module xil_defaultlib.ex_mem
+Compiling module xil_defaultlib.mem
+Compiling module xil_defaultlib.mem_wb
+Compiling module xil_defaultlib.hilo_reg
+Compiling module xil_defaultlib.ctrl
+Compiling module xil_defaultlib.div
+Compiling module xil_defaultlib.LLbit_reg
+Compiling module xil_defaultlib.openmips
+Compiling module xil_defaultlib.inst_rom
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.openmips_min_sopc
+Compiling module xil_defaultlib.openmips_min_sopc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot openmips_min_sopc_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "openmips_min_sopc_tb_behav -key {Behavioral:sim_1:Functional:openmips_min_sopc_tb} -tclbatch {openmips_min_sopc_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source openmips_min_sopc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'openmips_min_sopc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1003.695 ; gain = 0.000
+current_wave_config {Untitled 3}
+Untitled 3
+add_wave {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/clk}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rst}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_data_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_ce_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_data_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_data_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_we_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_sel_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_ce_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/pc}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_pc_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_inst_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_aluop_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_alusel_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_reg1_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_reg2_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_wreg_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_wd_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_is_in_delayslot_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_link_address_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_inst_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_aluop_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_alusel_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg1_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg2_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wreg_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wd_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_is_in_delayslot_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_link_address_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_inst_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wreg_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wd_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wdata_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_hi_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_lo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_whilo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_aluop_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_mem_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg1_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg2_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wreg_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wd_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wdata_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_hi_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_lo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_whilo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_aluop_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_mem_addr_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_reg1_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_reg2_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wreg_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wd_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wdata_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_hi_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_lo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_whilo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_LLbit_value_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_LLbit_we_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wreg_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wd_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wdata_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_hi_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_lo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_whilo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_LLbit_value_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_LLbit_we_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_read}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_read}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_data}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_data}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_addr}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_addr}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hi}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/lo}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_temp_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cnt_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_temp_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cnt_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_result}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_ready}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_opdata1}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_opdata2}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_start}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_annul}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/signed_div}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/is_in_delayslot_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/is_in_delayslot_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/next_inst_in_delayslot_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_branch_flag_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/branch_target_address}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stall}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stallreq_from_id}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stallreq_from_ex}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/LLbit_o}} 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'openmips_min_sopc_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj openmips_min_sopc_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/LLbit_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LLbit_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/ex_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/hilo_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hilo_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/id_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/if_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/inst_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/mem_wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openmips
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips_min_sopc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openmips_min_sopc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/pc_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sim_1/new/openmips_min_sopc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openmips_min_sopc_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+"xelab -wto 3f808ef259854b5c85aa70d189b8aaca --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot openmips_min_sopc_tb_behav xil_defaultlib.openmips_min_sopc_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/ProgramFiles/XILINX/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 3f808ef259854b5c85aa70d189b8aaca --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot openmips_min_sopc_tb_behav xil_defaultlib.openmips_min_sopc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'ram_ce_o' [C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips_min_sopc.v:34]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'mem_ce_o' [C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips.v:376]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pc_reg
+Compiling module xil_defaultlib.if_id
+Compiling module xil_defaultlib.id
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.id_ex
+Compiling module xil_defaultlib.ex
+Compiling module xil_defaultlib.ex_mem
+Compiling module xil_defaultlib.mem
+Compiling module xil_defaultlib.mem_wb
+Compiling module xil_defaultlib.hilo_reg
+Compiling module xil_defaultlib.ctrl
+Compiling module xil_defaultlib.div
+Compiling module xil_defaultlib.LLbit_reg
+Compiling module xil_defaultlib.openmips
+Compiling module xil_defaultlib.inst_rom
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.openmips_min_sopc
+Compiling module xil_defaultlib.openmips_min_sopc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot openmips_min_sopc_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "openmips_min_sopc_tb_behav -key {Behavioral:sim_1:Functional:openmips_min_sopc_tb} -tclbatch {openmips_min_sopc_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source openmips_min_sopc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'openmips_min_sopc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1017.758 ; gain = 0.000
+current_wave_config {Untitled 4}
+Untitled 4
+add_wave {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/clk}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rst}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_data_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_ce_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_data_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_data_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_we_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_sel_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_ce_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/pc}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_pc_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_inst_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_aluop_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_alusel_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_reg1_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_reg2_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_wreg_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_w_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_is_in_delayslot_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_link_address_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_inst_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_aluop_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_alusel_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg1_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg2_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wreg_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wd_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_is_in_delayslot_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_link_address_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_inst_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wreg_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_w_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wdata_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_hi_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_lo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_whilo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_aluop_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_mem_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg1_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg2_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wreg_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wd_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wdata_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_hi_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_lo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_whilo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_aluop_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_mem_addr_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_reg1_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_reg2_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wreg_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_w_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wdata_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_hi_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_lo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_whilo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_LLbit_value_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_LLbit_we_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wreg_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wd_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wdata_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_hi_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_lo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_whilo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_LLbit_value_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_LLbit_we_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_read}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_read}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_data}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_data}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_addr}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_addr}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hi}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/lo}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_temp_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cnt_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_temp_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cnt_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_result}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_ready}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_opdata1}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_opdata2}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_start}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_annul}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/signed_div}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/is_in_delayslot_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/is_in_delayslot_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/next_inst_in_delayslot_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_branch_flag_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/branch_target_address}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stall}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stallreq_from_id}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stallreq_from_ex}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/LLbit_o}} 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'openmips_min_sopc_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj openmips_min_sopc_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/LLbit_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LLbit_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/ex_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/hilo_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hilo_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/id_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/if_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/inst_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/mem_wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openmips
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips_min_sopc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openmips_min_sopc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/pc_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sim_1/new/openmips_min_sopc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openmips_min_sopc_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+"xelab -wto 3f808ef259854b5c85aa70d189b8aaca --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot openmips_min_sopc_tb_behav xil_defaultlib.openmips_min_sopc_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/ProgramFiles/XILINX/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 3f808ef259854b5c85aa70d189b8aaca --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot openmips_min_sopc_tb_behav xil_defaultlib.openmips_min_sopc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'ram_ce_o' [C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips_min_sopc.v:34]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'mem_ce_o' [C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips.v:376]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pc_reg
+Compiling module xil_defaultlib.if_id
+Compiling module xil_defaultlib.id
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.id_ex
+Compiling module xil_defaultlib.ex
+Compiling module xil_defaultlib.ex_mem
+Compiling module xil_defaultlib.mem
+Compiling module xil_defaultlib.mem_wb
+Compiling module xil_defaultlib.hilo_reg
+Compiling module xil_defaultlib.ctrl
+Compiling module xil_defaultlib.div
+Compiling module xil_defaultlib.LLbit_reg
+Compiling module xil_defaultlib.openmips
+Compiling module xil_defaultlib.inst_rom
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.openmips_min_sopc
+Compiling module xil_defaultlib.openmips_min_sopc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot openmips_min_sopc_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "openmips_min_sopc_tb_behav -key {Behavioral:sim_1:Functional:openmips_min_sopc_tb} -tclbatch {openmips_min_sopc_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source openmips_min_sopc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'openmips_min_sopc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1033.379 ; gain = 0.000
+current_wave_config {Untitled 5}
+Untitled 5
+add_wave {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/clk}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rst}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_data_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_ce_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_data_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_data_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_we_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_sel_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_ce_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/pc}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_pc_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_inst_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_aluop_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_alusel_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_reg1_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_reg2_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_wreg_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_w_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_is_in_delayslot_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_link_address_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_inst_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_aluop_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_alusel_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg1_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg2_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wreg_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wd_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_is_in_delayslot_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_link_address_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_inst_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wreg_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_w_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wdata_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_hi_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_lo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_whilo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_aluop_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_mem_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg1_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg2_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wreg_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wd_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wdata_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_hi_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_lo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_whilo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_aluop_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_mem_addr_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_reg1_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_reg2_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wreg_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_w_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wdata_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_hi_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_lo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_whilo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_LLbit_value_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_LLbit_we_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wreg_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wd_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wdata_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_hi_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_lo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_whilo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_LLbit_value_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_LLbit_we_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_read}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_read}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_data}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_data}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_addr}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_addr}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hi}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/lo}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_temp_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cnt_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_temp_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cnt_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_result}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_ready}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_opdata1}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_opdata2}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_start}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_annul}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/signed_div}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/is_in_delayslot_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/is_in_delayslot_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/next_inst_in_delayslot_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_branch_flag_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/branch_target_address}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stall}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stallreq_from_id}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stallreq_from_ex}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/LLbit_o}} 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'openmips_min_sopc_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj openmips_min_sopc_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/LLbit_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LLbit_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/ex_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/hilo_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hilo_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/id_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/if_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/inst_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/mem_wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openmips
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips_min_sopc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openmips_min_sopc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/pc_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sim_1/new/openmips_min_sopc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openmips_min_sopc_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+"xelab -wto 3f808ef259854b5c85aa70d189b8aaca --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot openmips_min_sopc_tb_behav xil_defaultlib.openmips_min_sopc_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/ProgramFiles/XILINX/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 3f808ef259854b5c85aa70d189b8aaca --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot openmips_min_sopc_tb_behav xil_defaultlib.openmips_min_sopc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'ram_ce_o' [C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips_min_sopc.v:34]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'mem_ce_o' [C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.srcs/sources_1/new/openmips.v:376]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pc_reg
+Compiling module xil_defaultlib.if_id
+Compiling module xil_defaultlib.id
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.id_ex
+Compiling module xil_defaultlib.ex
+Compiling module xil_defaultlib.ex_mem
+Compiling module xil_defaultlib.mem
+Compiling module xil_defaultlib.mem_wb
+Compiling module xil_defaultlib.hilo_reg
+Compiling module xil_defaultlib.ctrl
+Compiling module xil_defaultlib.div
+Compiling module xil_defaultlib.LLbit_reg
+Compiling module xil_defaultlib.openmips
+Compiling module xil_defaultlib.inst_rom
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.openmips_min_sopc
+Compiling module xil_defaultlib.openmips_min_sopc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot openmips_min_sopc_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/vivadoprojects/jsjzcyl-master/5_flowline_CPU/5_flowline_CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "openmips_min_sopc_tb_behav -key {Behavioral:sim_1:Functional:openmips_min_sopc_tb} -tclbatch {openmips_min_sopc_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source openmips_min_sopc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'openmips_min_sopc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1033.379 ; gain = 0.000
+current_wave_config {Untitled 6}
+Untitled 6
+log_wave {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/clk} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rst} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_data_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_addr_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_ce_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_data_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_addr_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_data_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_we_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_sel_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_ce_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/pc} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_pc_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_inst_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_aluop_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_alusel_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_reg1_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_reg2_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_wreg_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_w_addr_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_is_in_delayslot_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_link_address_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_inst_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_aluop_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_alusel_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg1_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg2_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wreg_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wd_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_is_in_delayslot_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_link_address_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_inst_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wreg_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_w_addr_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wdata_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_hi_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_lo_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_whilo_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_aluop_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_mem_addr_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg1_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg2_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wreg_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wd_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wdata_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_hi_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_lo_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_whilo_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_aluop_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_mem_addr_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_reg1_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_reg2_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wreg_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_w_addr_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wdata_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_hi_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_lo_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_whilo_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_LLbit_value_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_LLbit_we_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wreg_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wd_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wdata_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_hi_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_lo_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_whilo_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_LLbit_value_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_LLbit_we_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_read} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_read} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_data} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_data} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_addr} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_addr} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hi} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/lo} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_temp_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cnt_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_temp_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cnt_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_result} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_ready} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_opdata1} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_opdata2} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_start} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_annul} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/signed_div} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/is_in_delayslot_i} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/is_in_delayslot_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/next_inst_in_delayslot_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_branch_flag_o} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/branch_target_address} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stall} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stallreq_from_id} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stallreq_from_ex} {/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/LLbit_o} 
+current_wave_config {Untitled 6}
+Untitled 6
+add_wave {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/clk}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rst}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_data_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/rom_ce_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_data_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_data_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_we_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_sel_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ram_ce_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/pc}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_pc_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_inst_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_aluop_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_alusel_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_reg1_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_reg2_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_wreg_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_w_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_is_in_delayslot_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_link_address_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_inst_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_aluop_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_alusel_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg1_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg2_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wreg_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wd_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_is_in_delayslot_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_link_address_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_inst_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wreg_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_w_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_wdata_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_hi_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_lo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_whilo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_aluop_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_mem_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg1_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/ex_reg2_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wreg_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wd_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wdata_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_hi_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_lo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_whilo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_aluop_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_mem_addr_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_reg1_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_reg2_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wreg_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_w_addr_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_wdata_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_hi_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_lo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_whilo_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_LLbit_value_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/mem_LLbit_we_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wreg_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wd_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_wdata_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_hi_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_lo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_whilo_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_LLbit_value_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/wb_LLbit_we_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_read}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_read}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_data}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_data}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg1_addr}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/reg2_addr}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hi}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/lo}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_temp_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cnt_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/hilo_temp_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/cnt_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_result}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_ready}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_opdata1}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_opdata2}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_start}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/div_annul}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/signed_div}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/is_in_delayslot_i}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/is_in_delayslot_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/next_inst_in_delayslot_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/id_branch_flag_o}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/branch_target_address}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stall}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stallreq_from_id}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/stallreq_from_ex}} {{/openmips_min_sopc_tb/openmips_min_sopc0/openmips0/LLbit_o}} 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 28 19:14:40 2023...
